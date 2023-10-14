@@ -1,0 +1,90 @@
+body{
+    background:linear-gradient(to left,rgb(181, 86, 86), rgb(56, 32, 32), rgb(119, 90, 90));
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    color: white;
+    width: 50%;
+    height: 550px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(63, 31, 31);
+    box-shadow: rgb(red, green, rgb(18, 7, 7));
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: monospace;
+}
+.now-playing{
+    font-size: x-large;
+}
+
+.song-name{
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+.song-artist{
+    margin-top: 10px;
+    font-size: larger;
+}
+
+img{
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.seek-slider , .volume-slider{
+    height: 5px;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    cursor: grab;
+}
+.slider-container{
+
+    margin-top: 20px;
+}
+.seek-slider{
+    width: 95%;
+}
+.volume-slider{
+    width: 30%;
+}
+
+.buttons{
+    font-size: xx-large;
+    cursor: pointer;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.randomActive{
+    color: black;
+}
+.random-track{
+    margin-right: 70px;
+}
+.repeat-track{
+    margin-left: 70px;
+}
+.prev-track{
+    margin-right: 20px;
+}
+.next-track{
+    margin-left: 20px;
+}
